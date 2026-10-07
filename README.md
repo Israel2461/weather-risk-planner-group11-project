@@ -79,13 +79,13 @@ Limitations:
 | File | Owner | Responsibility |
 |---|---|---|
 | `app.py` | Oluwaferanmi Olotu (coordinator) | Streamlit UI; wires every module together |
-| `weather_client.py` | Godwin Ojo | Place lookup (`find_place`) + forecast fetching (Open-Meteo) |
-| `models.py` | Godwin Ojo | Shared `Forecast` data structure |
+| `weather_client.py` | Oluwaferanmi Olotu | Place lookup (`find_place`) + forecast fetching (Open-Meteo) |
+| `models.py` | Oluwaferanmi Olotu | Shared `Forecast` data structure |
 | `risk_analyzer.py` | Abimbola Ajayi | Activity rules (`ACTIVITIES`) and risk scoring |
 | `recommendation.py` | Abimbola Ajayi | Best time, risk reasons, activity advice, packing list, fallback advice |
-| `gemini_client.py` | Angel Keri | AI safety explanation (Gemini API) |
-| `storage.py` | Angel Keri | Favourites / history / saved plans (JSON file) |
-| `exceptions.py` | Godwin Ojo | `LocationNotFoundError`, `WeatherDataError` |
+| `gemini_client.py` | Abimbola Ajayi | AI safety explanation (Gemini API) |
+| `storage.py` | Abimbola Ajayi | Favourites / history / saved plans (JSON file) |
+| `exceptions.py` | Oluwaferanmi Olotu | `LocationNotFoundError`, `WeatherDataError` |
 | `location_data.py` | Weather/API & data group | Reads `data/locations.json` for the dropdowns |
 | `time_utils.py` | App/integration group | "5:30 PM" ↔ 24-hour conversion |
 | `data/locations.json` | Weather/API & data group | Country → state → place hierarchy |
